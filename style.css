@@ -1,0 +1,28 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+}
+section{
+    border: 1px solid #000;
+}
+.two {
+    grid-column: 2 / 4;
+}
+.six {
+    grid-column: 3 / 5;
+}
+.nine {
+    grid-column: 2;
+    grid-row: 3 / 5;
+}
+.ten {
+    grid-column: 4;
+    grid-row: 3 / 5;
+}
+
